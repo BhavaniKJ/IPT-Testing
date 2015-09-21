@@ -1,0 +1,60 @@
+Script started on Monday 21 September 2015 11:48:03 AM IST
+bash: /home/lavitha/Enthought/Canopy_32bit/User/bin/activate: No such file or directory
+]0;lavitha@fossee: ~/Downloads/IPT-Testinglavitha@fossee:~/Downloads/IPT-Testing$ sudo apt-get updategradedae[1Pdate[11P./pdf.shtex --version[K[K[K[K[K[K[K[K[K[K[K[K[Kgit push origin master
+Username for 'https://github.com': BhavaniKJ
+Password for 'https://BhavaniKJ@github.com': 
+Everything up-to-date
+]0;lavitha@fossee: ~/Downloads/IPT-Testinglavitha@fossee:~/Downloads/IPT-Testing$ ls
+[0m[01;34mfunctions[0m  [01;34mIPT-Testing[0m  README.md  screen.log
+]0;lavitha@fossee: ~/Downloads/IPT-Testinglavitha@fossee:~/Downloads/IPT-Testing$ gedit README.md &
+[1] 5547
+]0;lavitha@fossee: ~/Downloads/IPT-Testinglavitha@fossee:~/Downloads/IPT-Testing$ git commit
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   README.md
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	IPT-Testing/
+#	README.md~
+#	screen.log
+no changes added to commit (use "git add" and/or "git commit -a")
+[1]+  Done                    gedit README.md
+]0;lavitha@fossee: ~/Downloads/IPT-Testinglavitha@fossee:~/Downloads/IPT-Testing$ git add re[K[KREADME.md
+]0;lavitha@fossee: ~/Downloads/IPT-Testinglavitha@fossee:~/Downloads/IPT-Testing$ git add README.md[7Pcommitedit README.md &[7Pit commitedit README.md &[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd im[K[K[K[K[Kls
+[0m[01;34mfunctions[0m  [01;34mIPT-Testing[0m  README.md  README.md~  screen.log
+]0;lavitha@fossee: ~/Downloads/IPT-Testinglavitha@fossee:~/Downloads/IPT-Testing$ cd functions/imread/
+]0;lavitha@fossee: ~/Downloads/IPT-Testing/functions/imreadlavitha@fossee:~/Downloads/IPT-Testing/functions/imread$ ls
+[0m[01;34mcode[0m  [01;34mResult[0m
+]0;lavitha@fossee: ~/Downloads/IPT-Testing/functions/imreadlavitha@fossee:~/Downloads/IPT-Testing/functions/imread$ cd Result/
+]0;lavitha@fossee: ~/Downloads/IPT-Testing/functions/imread/Resultlavitha@fossee:~/Downloads/IPT-Testing/functions/imread/Result$ cd ../../..
+]0;lavitha@fossee: ~/Downloads/IPT-Testinglavitha@fossee:~/Downloads/IPT-Testing$ ls
+[0m[01;34mfunctions[0m  [01;34mIPT-Testing[0m  README.md  README.md~  screen.log
+]0;lavitha@fossee: ~/Downloads/IPT-Testinglavitha@fossee:~/Downloads/IPT-Testing$ [H[2J]0;lavitha@fossee: ~/Downloads/IPT-Testinglavitha@fossee:~/Downloads/IPT-Testing$ ls
+[0m[01;34mfunctions[0m  [01;34mIPT-Testing[0m  README.md  README.md~  screen.log
+]0;lavitha@fossee: ~/Downloads/IPT-Testinglavitha@fossee:~/Downloads/IPT-Testing$ git commit
+[master 13835b8] Testing on local system(Lavitha)
+ 1 file changed, 1 insertion(+)
+]0;lavitha@fossee: ~/Downloads/IPT-Testinglavitha@fossee:~/Downloads/IPT-Testing$ git push origin masrer[K[K[Kter
+Username for 'https://github.com': BhavaniKJ
+Password for 'https://BhavaniKJ@github.com': 
+To https://github.com/BhavaniKJ/IPT-Testing.git
+   ff38b1a..13835b8  master -> master
+]0;lavitha@fossee: ~/Downloads/IPT-Testinglavitha@fossee:~/Downloads/IPT-Testing$ ls
+[0m[01;34mfunctions[0m  [01;34mIPT-Testing[0m  README.md  README.md~  screen.log  [01;34mtest[0m
+]0;lavitha@fossee: ~/Downloads/IPT-Testinglavitha@fossee:~/Downloads/IPT-Testing$ git push test/
+fatal: 'test/' does not appear to be a git repository
+fatal: The remote end hung up unexpectedly
+]0;lavitha@fossee: ~/Downloads/IPT-Testinglavitha@fossee:~/Downloads/IPT-Testing$ git status
+# On branch master
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	IPT-Testing/
+#	README.md~
+#	screen.log
+nothing added to commit but untracked files present (use "git add"
