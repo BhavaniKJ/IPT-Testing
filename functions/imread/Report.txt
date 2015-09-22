@@ -1,0 +1,5 @@
+We used color.bmp, color.jpeg, color.png and color.tif.
+The above 4 images are 16X16 RGB images.
+Scilab was able to read all the formats.
+There no difference in pixcels, but difference in structure of matrix.
+Scilab's matrix was the converse of Matlab.
