@@ -1,0 +1,12 @@
+ d  =
+ 
+    1.  
+ 
+-->imshow(AJpeg)
+ 
+-->imshow(Apng)
+ 
+-->imshow(Abmp)
+ 
+-->imshow(Atif)
+ 
