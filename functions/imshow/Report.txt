@@ -1,0 +1,6 @@
+
+We used color.bmp, color.jpeg, color.png and color.tif.
+The above 4 images are 16X16 RGB images.
+Scilab was able to read all the formats and display them as well.
+The exception was .png file. This because there was a problem while reading the file.
+Matlab was unable to display tiff. Not sure this was due to graphics problem and a issue with matlab
