@@ -1,0 +1,124 @@
+Ajpeg = imread('color.jpeg');
+Apng = imread('color.png');
+Abmp = imread('color.bmp');
+Atif = imread('color.tif');
+Ajpeg_crop = imcrop(Ajpeg,[4,5,7,7])
+
+Ajpeg_crop(:,:,1) =
+
+   26   74  174  227  252  253  217  130
+   26   74  174  227  252  253  217  130
+   26   74  174  227  252  253  217  130
+   26   74  174  227  252  253  217  130
+   26   74  174  227  252  253  217  130
+   26   74  174  227  252  253  217  130
+   26   74  174  227  252  253  217  130
+   26   74  174  227  252  253  217  130
+
+
+Ajpeg_crop(:,:,2) =
+
+    0    0   21    7    0    0   27   60
+    0    0   21    7    0    0   27   60
+    0    0   21    7    0    0   27   60
+    0    0   21    7    0    0   27   60
+    0    0   21    7    0    0   27   60
+    0    0   21    7    0    0   27   60
+    0    0   21    7    0    0   27   60
+    0    0   21    7    0    0   27   60
+
+
+Ajpeg_crop(:,:,3) =
+
+  213  137  111   42    2    0    0    0
+  213  137  111   42    2    0    0    0
+  213  137  111   42    2    0    0    0
+  213  137  111   42    2    0    0    0
+  213  137  111   42    2    0    0    0
+  213  137  111   42    2    0    0    0
+  213  137  111   42    2    0    0    0
+  213  137  111   42    2    0    0    0
+
+imshow(Ajpeg_crop)
+Apng_crop = imcrop(Apng,[1,1,7,7])
+
+Apng_crop(:,:,1) =
+
+    0    0    0    0    0  255  255  255
+    0    0    0    0    0  255  255  255
+    0    0    0    0    0  255  255  255
+    0    0    0    0    0  255  255  255
+    0    0    0    0    0  255  255  255
+    0    0    0    0    0  255  255  255
+    0    0    0    0    0  255  255  255
+    0    0    0    0    0  255  255  255
+
+
+Apng_crop(:,:,2) =
+
+    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0
+
+
+Apng_crop(:,:,3) =
+
+  255  255  255  255  255    0    0    0
+  255  255  255  255  255    0    0    0
+  255  255  255  255  255    0    0    0
+  255  255  255  255  255    0    0    0
+  255  255  255  255  255    0    0    0
+  255  255  255  255  255    0    0    0
+  255  255  255  255  255    0    0    0
+  255  255  255  255  255    0    0    0
+
+imshow(Apng_crop)
+Abmp_crop = imcrop(Abmp,[6,7,7,7])
+
+Abmp_crop(:,:,1) =
+
+  255  255  255  255  255  255    0    0
+  255  255  255  255  255  255    0    0
+  255  255  255  255  255  255    0    0
+  255  255  255  255  255  255    0    0
+  255  255  255  255  255  255    0    0
+  255  255  255  255  255  255    0    0
+  255  255  255  255  255  255    0    0
+  255  255  255  255  255  255    0    0
+
+
+Abmp_crop(:,:,2) =
+
+    0    0    0    0    0    0  255  255
+    0    0    0    0    0    0  255  255
+    0    0    0    0    0    0  255  255
+    0    0    0    0    0    0  255  255
+    0    0    0    0    0    0  255  255
+    0    0    0    0    0    0  255  255
+    0    0    0    0    0    0  255  255
+    0    0    0    0    0    0  255  255
+
+
+Abmp_crop(:,:,3) =
+
+    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0
+    0    0    0    0    0    0    0    0
+
+imshow(Abmp_crop)
+Atif_crop = imcrop(Atif,[10,10,7,7])
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('imcrop>checkCData', '/usr/local/toolbox/images/images/imcrop.m', 410)" style="font-weight:bold">imcrop>checkCData</a> (<a href="matlab: opentoline('/usr/local/toolbox/images/images/imcrop.m',410,0)">line 410</a>)
+Invalid input image.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('imcrop>parseInputs', '/usr/local/toolbox/images/images/imcrop.m', 256)" style="font-weight:bold">imcrop>parseInputs</a> (<a href="matlab: opentoline('/usr/local/toolbox/images/images/imcrop.m',256,0)">line 256</a>)
+           
