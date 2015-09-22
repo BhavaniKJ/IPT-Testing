@@ -1,0 +1,27 @@
+
+Ajpeg = imread('color.tif');
+Ajpeg = imread('color.jpeg');
+Apng = imread('color.png');
+Abmp = imread('color.bmp');
+Atif = imread('color.tif');
+
+imshow(Ajpeg)
+[Warning: MATLAB has disabled some advanced graphics rendering features by switching to software OpenGL. For more
+information, click <a href="matlab:opengl('problems')">here</a>.] 
+imshow(Apng)
+imshow(Abmp)
+imshow(Atif)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('images.internal.imageDisplayValidateParams>validateCData', '/usr/local/toolbox/matlab/images/+images/+internal/imageDisplayValidateParams.m', 115)" style="font-weight:bold">images.internal.imageDisplayValidateParams>validateCData</a> (<a href="matlab: opentoline('/usr/local/toolbox/matlab/images/+images/+internal/imageDisplayValidateParams.m',115,0)">line 115</a>)
+Multi-plane image inputs must be RGB images of size MxNx3.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('images.internal.imageDisplayValidateParams', '/usr/local/toolbox/matlab/images/+images/+internal/imageDisplayValidateParams.m', 27)" style="font-weight:bold">images.internal.imageDisplayValidateParams</a> (<a href="matlab: opentoline('/usr/local/toolbox/matlab/images/+images/+internal/imageDisplayValidateParams.m',27,0)">line 27</a>)
+common_args.CData = validateCData(common_args.CData,image_type);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('images.internal.imageDisplayParseInputs', '/usr/local/toolbox/matlab/images/+images/+internal/imageDisplayParseInputs.m', 78)" style="font-weight:bold">images.internal.imageDisplayParseInputs</a> (<a href="matlab: opentoline('/usr/local/toolbox/matlab/images/+images/+internal/imageDisplayParseInputs.m',78,0)">line 78</a>)
+common_args = images.internal.imageDisplayValidateParams(common_args);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('imshow', '/usr/local/toolbox/matlab/images/imshow.m', 227)" style="font-weight:bold">imshow</a> (<a href="matlab: opentoline('/usr/local/toolbox/matlab/images/imshow.m',227,0)">line 227</a>)
+  [common_args,specific_args] = ...
+} 
+
+diary off
