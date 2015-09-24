@@ -1,0 +1,7 @@
+We used color.bmp, color.jpeg, color.png and color.tif.
+The above 4 images are 16X16 RGB images.
+Scilab has 2 features, line type and shift that matlab does not
+Matlab has smooth feature that Scilab does not.
+More testiing needs to be done on the scilab version, mainly on the line type and shit.
+
+
