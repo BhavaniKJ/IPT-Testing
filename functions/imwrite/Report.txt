@@ -1,0 +1,3 @@
+Scilab is unable to read matrices and write as image.
+It is able to read regular RGB images: https://goo.gl/Q6fqm7
+ 

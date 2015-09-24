@@ -1,0 +1,7 @@
+A = imread('color.jpeg');
+
+imwrite(A,'A.jpeg');
+imwrite(A,'A.png');
+imwrite(A,'A.bmp');
+imwrite(A,'A.tif');
+
