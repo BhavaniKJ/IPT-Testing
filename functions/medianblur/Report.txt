@@ -1,0 +1,2 @@
+Matlab has medfilt2 and medfilt1 and neither match with with medianblur.
+There doesn't seem to be a matlab equivalent 
