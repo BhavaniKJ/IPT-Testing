@@ -1,0 +1,7 @@
+We used color.bmp, color.jpeg, color.png and color.tif.
+The above 4 images are 16X16 RGB images.
+Mild differences between the matlab and scilab
+Scilab lets you have two sigma values, sigma x and sigma y while matlab has only one sigma value.
+Matlab has padding feature, which scilab lacks.
+Matlab has two functions: imgaussfilt() and imfilter(). 
+imgaussfilt cannot be used as it only available for  Matlab R2015a.
