@@ -1,0 +1,7 @@
+We used color.bmp, color.jpeg, color.png and color.tif.
+The above 4 images are 16X16 RGB images.
+Since there is problem with the way Scilab reads color.png, the conversion was not possible.
+Rest of the images were tested out and the conversion was successfull.
+
+There is a good possibility for the martrices not to match due to the following-:
+The OpenCV Reference Manual, Release 2.4.10.0, Page 283: "Note that the default color format in OpenCV is often referred to as RGB but it is actually BGR (the bytes are reversed). So the first byte in a standard (24-bit) color image will be an 8-bit Blue component, the second byte will be Green, and the third byte will be Red."

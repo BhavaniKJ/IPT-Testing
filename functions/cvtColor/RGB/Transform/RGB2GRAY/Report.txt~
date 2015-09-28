@@ -1,0 +1,5 @@
+We used color.bmp, color.jpeg, color.png and color.tif.
+The above 4 images are 16X16 RGB images.
+Since there is problem with the way Scilab reads color.png, the conversion was not possible.
+Rest of the images were tested out and the conversion was successfull.
+
