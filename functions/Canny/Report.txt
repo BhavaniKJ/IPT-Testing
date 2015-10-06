@@ -1,0 +1,10 @@
+16X16 Gray scale images of jpeg, bmp, png and tif format were used.
+Scilab is able to 
+	take colour image unlike matlab.
+	enables two threshold values, apertureSize and gradient ulike matlab
+Scilab does not 
+	have parameters like: method,  direction and sigma.
+	provide output parameters like threshout.
+
+Matlab takes a genralised approach to edge detection and canny is one of them.
+  

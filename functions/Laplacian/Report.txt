@@ -1,0 +1,12 @@
+16X16 color images of jpeg, bmp, png and tif format were used.
+Scilab is able to 
+	change the depth ksize , scale, delta of the image.
+Matlab does not 
+	elaborate laplacian filter the way scilab does.
+	takes a genralised approach to filter and Laplace is one of them.
+	uses the smw function for gaussian and sobel.
+Matlab has an extra feature : alpha but should not add any advantage die to the elaborate nature scilab's laplace filter works
+
+These two functions work differently and comparission is not appropriate.
+
+  

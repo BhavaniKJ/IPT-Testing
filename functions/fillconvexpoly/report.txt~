@@ -1,0 +1,20 @@
+The function was tested on R2011 and thus insertShape(R2014) could not be used.
+
+The following steps need to be implemented to draw a polygon. 
+A_jpeg=im2double(imread('color.jpeg'));
+hshapeins = vision.ShapeInserter;
+Pts = [4 3 1 7;2 5 7 5]
+B_jpeg= step(hshapeins,A_jpeg, Pts)
+
+This version only lets me to draw a polygon and is much restricted when compared to insertShape.
+Comparing with this function is not worth while.
+
+Scilab has an extra features shift, while matlab's insertShape has opacity and smoothedges.
+
+Had insertShape been used this would be the input.
+points = [3 6 10 1 13 5 3 9 6 5 6 11];
+B_jpeg = insertShape(A_jpeg, 'FilledPolygon', points, 'Color','black');
+
+
+ 
+
